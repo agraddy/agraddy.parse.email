@@ -1,0 +1,22 @@
+{
+  "name": "agraddy.parse.email",
+  "version": "0.1.0",
+  "description": "Coming soon.",
+  "main": "index.js",
+  "author": "Anthony Graddy",
+  "license": "MIT",
+  "homepage": "https://github.com/agraddy/agraddy.parse.email#readme",
+  "scripts": {
+    "test": "node ./test"
+  },
+  "repository": {
+	  "type": "git",
+	  "url": "git://github.com/agraddy/agraddy.parse.email.git"
+  },
+  "bugs": {
+	  "url": "https://github.com/agraddy/agraddy.parse.email/issues"
+  },
+  "devDependencies": {
+	  "agraddy.test.tap": "^0.2.0"
+  }
+}
