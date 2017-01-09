@@ -10,13 +10,18 @@
     "test": "node ./test"
   },
   "repository": {
-	  "type": "git",
-	  "url": "git://github.com/agraddy/agraddy.parse.email.git"
+    "type": "git",
+    "url": "git://github.com/agraddy/agraddy.parse.email.git"
   },
   "bugs": {
-	  "url": "https://github.com/agraddy/agraddy.parse.email/issues"
+    "url": "https://github.com/agraddy/agraddy.parse.email/issues"
   },
   "devDependencies": {
-	  "agraddy.test.tap": "^0.2.0"
+    "agraddy.test.tap": "^0.2.0"
+  },
+  "dependencies": {
+    "addressparser": "^1.0.1",
+    "agraddy.parse.multipart": "^0.2.0",
+    "quoted-printable": "^1.0.1"
   }
 }

@@ -1,0 +1,28 @@
+MIME-Version: 1.0
+Received: by 127.0.0.1 with HTTP; Tue, 3 Jan 2017 21:06:18 -0800 (PST)
+Date: Tue, 3 Jan 2017 23:06:18 -0600
+Delivered-To: receiver@example.com
+Message-ID: <replaced@mail.gmail.com>
+Subject: Basic Gmail Test
+From: Sender <sender@example.com>
+To: Receiver <receiver@example.com>
+Content-Type: multipart/alternative; boundary=001a114b2d72b8b81605453dbe30
+
+--001a114b2d72b8b81605453dbe30
+Content-Type: text/plain; charset=UTF-8
+
+This is a basic email sent by Gmail.
+
+--001a114b2d72b8b81605453dbe30
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><span style=3D"color:rgb(34,34,34);font-family:arial,sans-=
+serif;font-size:small;font-style:normal;font-variant:normal;font-weight:nor=
+mal;letter-spacing:normal;line-height:normal;text-align:start;text-indent:0=
+px;text-transform:none;white-space:normal;word-spacing:0px;background-color=
+:rgb(255,255,255);display:inline;float:none">This is a basic email sent by =
+Gmail.</span></div>
+
+--001a114b2d72b8b81605453dbe30--
+
