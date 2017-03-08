@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "addressparser": "^1.0.1",
-    "agraddy.parse.multipart": "^0.2.0",
+    "agraddy.parse.multipart": "^0.3.0",
     "quoted-printable": "^1.0.1"
   }
 }
