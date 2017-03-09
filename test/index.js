@@ -28,6 +28,15 @@ expected = getJSON('failure1.json');
 //console.log(expected);
 tap.assert.deepEqual(actual, expected, 'Should be equal.');
 
+// Failure 2 (handle double quotes in boundary)
+actual = mod(getEmail('failure2.eml'));
+expected = getJSON('failure2.json');
+//console.log('actual');
+//console.log(actual);
+//console.log('expected');
+//console.log(expected);
+tap.assert.deepEqual(actual, expected, 'Should be equal.');
+
 
 
 

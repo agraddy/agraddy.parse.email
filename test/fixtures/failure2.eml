@@ -1,0 +1,28 @@
+Received: by 127.0.0.1 with HTTP; Wed, 4 Jan 2017 00:01:33 -0800 (PST)
+Date: Wed, 4 Jan 2017 02:01:33 -0600
+Delivered-To: receiver@example.com
+Message-ID: <replaced@mail.gmail.com>
+Subject: Failure 
+	With Folded 
+	Header
+From: Sender <sender@example.com>
+To: Receiver <receiver@example.com>
+Content-Type: multipart/mixed; boundary="001a114d548670b60a05454031f5"
+
+--001a114d548670b60a05454031f5
+Content-Type: multipart/alternative; boundary="001a114d548670b5fc05454031f3"
+
+--001a114d548670b5fc05454031f3
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+This is a basic email that failed.
+
+--001a114d548670b5fc05454031f3
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir="ltr">This is a basic email that failed.<br></div>
+
+--001a114d548670b5fc05454031f3--
+--001a114d548670b60a05454031f5--

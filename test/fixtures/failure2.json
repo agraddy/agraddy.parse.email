@@ -1,0 +1,8 @@
+{
+	"attachments": [],
+	"from": "sender@example.com",
+	"html": "<div dir=\"ltr\">This is a basic email that failed.<br></div>\n",
+	"subject": "Failure With Folded Header",
+	"text": "This is a basic email that failed.\n",
+	"to": "receiver@example.com"
+}
