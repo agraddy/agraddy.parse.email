@@ -17,11 +17,11 @@
     "url": "https://github.com/agraddy/agraddy.parse.email/issues"
   },
   "devDependencies": {
-    "agraddy.test.tap": "^0.2.0"
+    "agraddy.test.tap": "^0.4.0"
   },
   "dependencies": {
     "addressparser": "^1.0.1",
-    "agraddy.parse.multipart": "^0.3.0",
+    "agraddy.parse.multipart": "^0.4.0",
     "quoted-printable": "^1.0.1"
   }
 }

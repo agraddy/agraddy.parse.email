@@ -1,8 +1,44 @@
 {
 	"attachments": [],
 	"from": "sender@example.com",
-	"html": "<div dir=\"ltr\">This is a basic email that failed.<br></div>\n",
+	"html": "<div dir=\"ltr\">This is a basic email that failed.<br></div>\r\n",
 	"subject": "Failure With Folded Header",
-	"text": "This is a basic email that failed.\n",
-	"to": "receiver@example.com"
+	"text": "This is a basic email that failed.\r\n",
+	"to": "receiver@example.com",
+	"rawHeaders": [
+		"Received",
+		"by 127.0.0.1 with HTTP; Wed, 4 Jan 2017 00:01:33 -0800 (PST)",
+		"Date",
+		"Wed, 4 Jan 2017 02:01:33 -0600",
+		"Delivered-To",
+		"receiver@example.com",
+		"Message-ID",
+		"<replaced@mail.gmail.com>",
+		"Subject",
+		"Failure With Folded Header",
+		"From",
+		"Sender <sender@example.com>",
+		"To",
+		"Receiver <receiver@example.com>",
+		"Content-Type",
+		"multipart/mixed; boundary=001a114d548670b60a05454031f5"
+	],
+	"extraRawHeaders": [
+		"Received",
+		" by 127.0.0.1 with HTTP; Wed, 4 Jan 2017 00:01:33 -0800 (PST)",
+		"Date",
+		" Wed, 4 Jan 2017 02:01:33 -0600",
+		"Delivered-To",
+		" receiver@example.com",
+		"Message-ID",
+		" <replaced@mail.gmail.com>",
+		"Subject",
+		" Failure \r\n\tWith Folded \r\n\tHeader",
+		"From",
+		" Sender <sender@example.com>",
+		"To",
+		" Receiver <receiver@example.com>",
+		"Content-Type",
+		" multipart/mixed; boundary=001a114d548670b60a05454031f5"
+	]
 }

@@ -17,6 +17,10 @@ tap.assert.deepEqual(actual, expected, 'Should be equal.');
 // Gmail With Attachment
 actual = mod(getEmail('gmail_attachment.eml'));
 expected = getJSON('gmail_attachment.json');
+//console.log('actual');
+//console.log(actual);
+//console.log('expected');
+//console.log(expected);
 tap.assert.deepEqual(actual, expected, 'Should be equal.');
 
 // Failure 1 (based off an actual email that failed)
